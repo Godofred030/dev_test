@@ -1,0 +1,23 @@
+  {
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "Teamosaira@08",
+    "database": "dev_test",
+    "synchronize": false,
+    "entities": [
+       "src/**/*.entity{.js,.ts}"
+    ],
+    "migrations": [
+       "database/migrations/**/*.ts"
+    ],
+    "subscribers": [
+       "src/subscriber/**/*.ts"
+    ],
+    "cli": {
+       "entitiesDir": "src/entity",
+       "migrationsDir": "database/migrations",
+       "subscribersDir": "src/subscriber"
+    }
+ }
